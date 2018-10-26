@@ -5,14 +5,10 @@
     <title>Po quotes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A demo of a site with some nice, literary quotations">
-    <meta name="author" content="">
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="author" content="Uche Ogbuji">
 
     <!-- Styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/colorbox.css" rel="stylesheet"/>
     <style type="text/css">
       body {
         padding-top: 60px;
@@ -53,32 +49,7 @@
               <li><a href="http://www.poetryfoundation.org/">Poetry foundation</a></li>
               <li><a href="http://poems.com/">Poetry daily</a></li>
             </ul>
-
           </div><!--/.well -->
-
-          <a href="#popup" id="popup">Click to create a new quote</a>
-          <div>
-            <form id="newquote" action="index.html">
-              <fieldset>
-                <legend>The quote</legend>
-                <label for="author">Author's Name</label>
-                <input id="author" name="author" type="text" placeholder="First and last name" required="required" autofocus="autofocus">
-                <label for="text">Text of the quotation</label>
-                <input id="text" name="text" type="textarea" placeholder="Text of the quote here" required="required">
-              </fieldset>
-              <fieldset>
-                <legend>The work</legend>
-                <label for="title">Title of the work</label>
-                <input id="title" name="title" type="text" required="required">
-                <label for="link">Link to the work</label>
-                <input id="link" name="link" type="text" required="required">
-                <label for="year">Year of the work</label>
-                <input id="year" name="year" type="text" required="required">
-              </fieldset>
-              <input id="donewquote" type="submit" value="Add quote" />
-            </form>
-          </div>
-
         </div><!--/span-->
         <div class="span9">
           <div class="hero-unit">
@@ -136,6 +107,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery-1.9.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-lightbox.js"></script>
 
     <script src="js/poquotes.js"></script>
 
